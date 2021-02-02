@@ -1,0 +1,8 @@
+create table Store 
+(StoreId varchar(100) not null, constraint Store1 primary key (StoreId),foreign key(StoreId) references AgentStore(StoreId),
+Storename varchar(100) not null,AddressLine1 varchar (200) not null,AddressLine2 varchar (200) not null,
+State varchar(100) not null, Country varchar(100) not null, Pincode varchar(100) not null,
+Phone varchar(100) not null, Email varchar(100) not null);
+insert into store values();
+
+
